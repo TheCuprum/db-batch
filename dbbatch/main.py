@@ -2,7 +2,7 @@ import argparse
 import os
 # import sys
 # sys.path.insert(0,"..")
-from run_batch import run_batch
+from .run_batch import run_batch
 
 DB_PATH = "C:/Program Files (x86)/DesignBuilder/designbuilder.exe"
 JOB_SERVER_DIR = "C:/ProgramData/DesignBuilder/JobServer/Users/User"

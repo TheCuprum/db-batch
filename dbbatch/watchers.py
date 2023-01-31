@@ -4,7 +4,7 @@ import os
 import time
 from threading import Thread
 
-from misc_os import list_dirs
+from .misc_os import list_dirs
 
 
 class Watcher(Thread):

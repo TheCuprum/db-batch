@@ -4,9 +4,9 @@ import threading
 import time
 from queue import Queue
 
-from collector import Collector
-from misc_os import create_dir, kill_process, list_files, split_file_name_ext
-from watchers import EplusWatcher, SbemWatcher
+from .collector import Collector
+from .misc_os import create_dir, kill_process, list_files, split_file_name_ext
+from .watchers import EplusWatcher, SbemWatcher
 
 SBEM_VERSIONS = ["41e", "54a", "54b", "55h", "56a"]
 DB_PATH = "C:/Program Files (x86)/DesignBuilder/designbuilder.exe"

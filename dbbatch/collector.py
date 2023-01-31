@@ -1,6 +1,6 @@
 from threading import Thread
 
-from misc_os import copy_files
+from .misc_os import copy_files
 
 
 class Collector(Thread):
